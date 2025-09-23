@@ -1,17 +1,3 @@
-# Beauty Palette MCP Server - Dependencias
-# Para despliegue en Railway
-
-# Framework web
 fastapi>=0.104.0
-
-# Servidor ASGI
 uvicorn[standard]>=0.24.0
-
-# Utilidades
 python-multipart>=0.0.6
-python-dotenv>=1.0.0
-
-# Manejo de requests (incluido automáticamente)
-# httpx - solo necesario para cliente, no servidor
-
-# Nota: colorsys, json, datetime, os vienen con Python estándar
